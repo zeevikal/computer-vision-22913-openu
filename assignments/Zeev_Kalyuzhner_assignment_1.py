@@ -43,7 +43,7 @@ def ex_1_b():
 
 
 def ex_2_a():
-    im = misc.imread('../data/cameraman.tiff')
+    im = misc.imread('cameraman.tiff')
 
     def negative_img(img):
         neg_img = []
@@ -73,7 +73,7 @@ def ex_2_b():
                 im[i + 1][j] = im[i + 1][j] + (3 * error) // 8
         return im
 
-    img = misc.imread('../data/cameraman.tiff')
+    img = misc.imread('cameraman.tiff')
     im_ed1 = error_diffusion(img, 155)
     im_ed2 = error_diffusion(im_ed1, 155)
 
