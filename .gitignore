@@ -1,8 +1,8 @@
-# os
+\# os
 .DS_Store
 .idea/
 .xml
-.pdf
+*.pdf
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
